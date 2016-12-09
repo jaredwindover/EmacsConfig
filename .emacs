@@ -299,4 +299,5 @@
 (global-set-key (kbd "C-<tab>") 'next-buffer) ; switch to next buffer, also C-x right
 (global-set-key (kbd "C-<iso-lefttab>") 'previous-buffer) ; switch to next buffer, also C-x right
 
+(toggle-frame-fullscreen)
 (server-start)
