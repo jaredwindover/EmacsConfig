@@ -1,1 +1,2 @@
 # EmacsConfig
+Current emacs configuration
