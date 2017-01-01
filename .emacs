@@ -1,5 +1,5 @@
 (setq default-directory
-			"C:/Users/Redirection/windoj9")
+      "/home/jared")
 (setq backup-directory-alist
       `((".*" . ,temporary-file-directory)))
 (setq auto-save-file-name-transforms
@@ -28,7 +28,7 @@
  '(compilation-message-face (quote default))
  '(custom-safe-themes
 	 (quote
-		("a800120841da457aa2f86b98fb9fd8df8ba682cebde033d7dbf8077c1b7d677a" "0b2e94037dbb1ff45cc3cd89a07901eeed93849524b574fa8daa79901b2bfdcf" default)))
+		("c7a9a68bd07e38620a5508fef62ec079d274475c8f92d75ed0c33c45fbe306bc" "a800120841da457aa2f86b98fb9fd8df8ba682cebde033d7dbf8077c1b7d677a" "0b2e94037dbb1ff45cc3cd89a07901eeed93849524b574fa8daa79901b2bfdcf" default)))
  '(fci-rule-color "#20240E")
  '(highlight-changes-colors (quote ("#FD5FF0" "#AE81FF")))
  '(highlight-tail-colors
@@ -92,7 +92,7 @@
  '(org-insert-mode-line-in-empty-file t)
  '(package-selected-packages
 	 (quote
-		(circe powershell centered-cursor-mode yaml-mode monokai-theme smart-tabs-mode)))
+		(rainbow-mode lua-mode fish-mode circe powershell centered-cursor-mode yaml-mode monokai-theme smart-tabs-mode)))
  '(php-mode-coding-style (quote wordpress))
  '(pos-tip-background-color "#A6E22E")
  '(pos-tip-foreground-color "#272822")
