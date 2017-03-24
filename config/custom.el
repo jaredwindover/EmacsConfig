@@ -46,10 +46,14 @@
  '(ibuffer-saved-filter-groups
 	 (quote
 		(("Main"
+			("DIRED"
+			 (used-mode . dired-mode))
+			("WEB"
+			 (filename . "/src/web/"))
+			("API"
+			 (filename . "/src/api/"))
 			("PowerShell"
 			 (filename . "\\.ps1$"))
-			("dired"
-			 (used-mode . dired-mode))
 			("BASH"
 			 (filename . "\\.sh$"))
 			("Python"
@@ -94,7 +98,7 @@
  '(org-insert-mode-line-in-empty-file t)
  '(package-selected-packages
 	 (quote
-		(fsharp-mode markdown-mode elpy highlight-indent-guides ## rainbow-mode lua-mode fish-mode circe powershell centered-cursor-mode yaml-mode monokai-theme smart-tabs-mode)))
+		(fsharp-mode markdown-mode elpy highlight-indent-guides js2-mode web-mode ## rainbow-mode lua-mode fish-mode circe powershell centered-cursor-mode yaml-mode monokai-theme smart-tabs-mode)))
  '(php-mode-coding-style (quote wordpress))
  '(pos-tip-background-color "#A6E22E")
  '(pos-tip-foreground-color "#272822")
