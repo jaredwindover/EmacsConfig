@@ -21,6 +21,7 @@
 (load-user-file "config/temp-files.el")
 (load-user-file "config/package.el")
 (load-user-file "config/inhibit-startup.el")
+(load-user-file "config/undo.el")
 (load-user-file "config/custom.el")
 (load-user-file "config/associations.el")
 ;; (load-user-file "config/coffee.el")

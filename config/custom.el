@@ -52,6 +52,14 @@
 			 (filename . "/src/web/"))
 			("API"
 			 (filename . "/src/api/"))
+			("CLOUDIFY:PLUGINS"
+			 (filename . "/cloudify/.*/plugins"))
+			("CLOUDIFY:TYPES"
+			 (filename . "/cloudify/.*/types"))
+			("CLOUDIFY"
+			 (filename . "/cloudify/"))
+			("BLUEPRINTS"
+			 (filename . "/blueprints/"))
 			("PowerShell"
 			 (filename . "\\.ps1$"))
 			("BASH"
@@ -98,26 +106,7 @@
  '(org-insert-mode-line-in-empty-file t)
  '(package-selected-packages
 	 (quote
-		(toml-mode
-		 rust-mode
-		 hl-line+
-		 fsharp-mode
-		 markdown-mode
-		 elpy
-		 highlight-indent-guides
-		 js2-mode
-		 web-mode
-		 ##
-		 rainbow-mode
-		 lua-mode
-		 fish-mode
-		 circe
-		 powershell
-		 centered-cursor-mode
-		 yaml-mode
-		 monokai-theme
-		 smart-tabs-mode)
-		))
+		(haskell-mode undo-tree nyan-mode toml-mode rust-mode hl-line+ fsharp-mode markdown-mode elpy highlight-indent-guides js2-mode web-mode ## rainbow-mode lua-mode fish-mode circe powershell centered-cursor-mode yaml-mode monokai-theme smart-tabs-mode)))
  '(php-mode-coding-style (quote wordpress))
  '(pos-tip-background-color "#A6E22E")
  '(pos-tip-foreground-color "#272822")
