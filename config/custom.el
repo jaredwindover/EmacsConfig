@@ -48,6 +48,12 @@
 		(("Main"
 			("DIRED"
 			 (used-mode . dired-mode))
+			("WEB:REDUCERS"
+			 (filename . "/src/web/js/Reducers"))
+			("WEB:ACTIONS"
+			 (filename . "/src/web/js/Actions"))
+			("WEB:COMPONENTS"
+			 (filename . "/src/web/js/Components"))
 			("WEB"
 			 (filename . "/src/web/"))
 			("API"
@@ -106,7 +112,7 @@
  '(org-insert-mode-line-in-empty-file t)
  '(package-selected-packages
 	 (quote
-		(haskell-mode undo-tree nyan-mode toml-mode rust-mode hl-line+ fsharp-mode markdown-mode elpy highlight-indent-guides js2-mode web-mode ## rainbow-mode lua-mode fish-mode circe powershell centered-cursor-mode yaml-mode monokai-theme smart-tabs-mode)))
+		(haskell-mode undo-tree dockerfile-mode groovy-mode auto-complete nyan-mode toml-mode rust-mode hl-line+ fsharp-mode markdown-mode elpy highlight-indent-guides js2-mode web-mode ## rainbow-mode lua-mode fish-mode circe powershell centered-cursor-mode yaml-mode monokai-theme smart-tabs-mode)))
  '(php-mode-coding-style (quote wordpress))
  '(pos-tip-background-color "#A6E22E")
  '(pos-tip-foreground-color "#272822")

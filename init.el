@@ -29,6 +29,7 @@
 (load-user-file "config/whitespace.el")
 (load-user-file "config/zen.el")
 (load-user-file "config/python.el")
+(load-user-file "config/javascript.el")
 (load-user-file "config/web.el")
 (load-user-file "config/yaml.el")
 (load-user-file "config/ibuffer.el")
