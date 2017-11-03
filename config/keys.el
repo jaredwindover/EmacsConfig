@@ -19,6 +19,9 @@
 (global-set-key (kbd "M-4") 'split-window-vertically) ; split pane top/bottom
 (global-set-key (kbd "M-2") 'delete-window) ; close current pane
 
+(global-set-key (kbd "M-<up>") 'move-line-up) ; move the current line up
+(global-set-key (kbd "M-<down>") 'move-line-down) ; move the current line up
+
 (global-set-key (kbd "M-s") 'other-window) ; cursor to other pane
 (global-set-key (kbd "M-S")
 								(lambda ()

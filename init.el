@@ -28,21 +28,24 @@
 ;; (load-user-file "config/latex.el")
 (load-user-file "config/whitespace.el")
 (load-user-file "config/zen.el")
+(load-user-file "config/org.el")
 (load-user-file "config/python.el")
 (load-user-file "config/javascript.el")
 (load-user-file "config/web.el")
 (load-user-file "config/yaml.el")
 (load-user-file "config/ibuffer.el")
 (load-user-file "config/toggle-fold.el")
+;; (load-user-file "config/move-line.el")
+(load-user-file "config/move-lines.el")
 (load-user-file "config/keys.el")
-
+;;
 (load-theme 'monokai t)
-
+;;
 ;; Always use these settings
 (setq default-cursor-type 'hbar)
 (desktop-save-mode 1)
 (setq column-number-mode t)
-
+;;
 ;; Always enable these modes
 (hidden-mode-line-mode 1)
 (bzg-big-fringe-mode 1)
@@ -52,8 +55,11 @@
 (global-hl-line-mode 1)
 (resp-big-fringe-mode 1)
 (centered-cursor-mode 1)
-
+(yas-global-mode 1)
+;;
 (toggle-frame-fullscreen)
 (server-start)
 (put 'upcase-region 'disabled nil)
 (put 'downcase-region 'disabled nil)
+;; Enable move-lines-bindings
+(move-lines-binding)

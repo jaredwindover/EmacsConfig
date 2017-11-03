@@ -14,6 +14,7 @@
 	 (quote
 		("c7a9a68bd07e38620a5508fef62ec079d274475c8f92d75ed0c33c45fbe306bc" "a800120841da457aa2f86b98fb9fd8df8ba682cebde033d7dbf8077c1b7d677a" "0b2e94037dbb1ff45cc3cd89a07901eeed93849524b574fa8daa79901b2bfdcf" default)))
  '(fci-rule-color "#20240E")
+ '(flycheck-disabled-checkers (quote (javascript-jshint)))
  '(highlight-changes-colors (quote ("#FD5FF0" "#AE81FF")))
  '(highlight-tail-colors
 	 (quote
@@ -54,8 +55,24 @@
 			 (filename . "/src/web/js/Actions"))
 			("WEB:COMPONENTS"
 			 (filename . "/src/web/js/Components"))
+			("WEB:SAGAS"
+			 (filename . "/src/web/js/Sagas"))
+			("WEB:SELECTORS"
+			 (filename . "/src/web/js/Selectors"))
+			("WEB:UNITTESTS"
+			 (filename . "/src/web/js/test/unit"))
+			("WEB:INTEGRATIONTESTS"
+			 (filename . "/src/web/js/test/integration"))
 			("WEB"
 			 (filename . "/src/web/"))
+			("API:EMAIL"
+			 (filename . "/src/api/lib/email/"))
+			("API:ROUTES"
+			 (filename . "/src/api/lib/routes/"))
+			("API:MODELS"
+			 (filename . "/src/api/lib/models/"))
+			("API:TESTS"
+			 (filename . "/src/api/test/"))
 			("API"
 			 (filename . "/src/api/"))
 			("CLOUDIFY:PLUGINS"
@@ -108,11 +125,13 @@
  '(ibuffer-show-empty-filter-groups nil)
  '(inhibit-startup-echo-area-message "jared")
  '(js-indent-level 2)
+ '(js2-bounce-indent-p nil)
+ '(js2-global-externs (quote ("describe" "context" "it" "before" "after")))
  '(magit-diff-use-overlays nil)
  '(org-insert-mode-line-in-empty-file t)
  '(package-selected-packages
 	 (quote
-		(haskell-mode undo-tree dockerfile-mode groovy-mode auto-complete nyan-mode toml-mode rust-mode hl-line+ fsharp-mode markdown-mode elpy highlight-indent-guides js2-mode web-mode ## rainbow-mode lua-mode fish-mode circe powershell centered-cursor-mode yaml-mode monokai-theme smart-tabs-mode)))
+		(js2-refactor ibuffer-vc flycheck salt-mode haskell-mode undo-tree dockerfile-mode groovy-mode auto-complete nyan-mode toml-mode rust-mode hl-line+ fsharp-mode markdown-mode elpy highlight-indent-guides js2-mode web-mode ## rainbow-mode lua-mode fish-mode circe powershell centered-cursor-mode yaml-mode monokai-theme smart-tabs-mode)))
  '(php-mode-coding-style (quote wordpress))
  '(pos-tip-background-color "#A6E22E")
  '(pos-tip-foreground-color "#272822")
@@ -151,4 +170,5 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
+ '(default ((t (:inherit nil :stipple nil :background "#272822" :foreground "#F8F8F2" :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal :weight normal :height 80 :width normal :foundry "PfEd" :family "DejaVu Sans Mono"))))
  '(fringe ((t (:background "#272822")))))
