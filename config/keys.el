@@ -9,8 +9,8 @@
 (global-set-key (kbd "C-x C-b") 'ibuffer) ; improved buffer window
 (global-set-key (kbd "M-0") 'kill-this-buffer) ; kill the current buffer
 (global-set-key (kbd "C-<tab>") 'next-buffer) ; switch to next buffer, also C-x right
-(global-set-key (kbd "C-<iso-lefttab>") 'previous-buffer) ; switch to next buffer, also C-x right
-(global-set-key (kbd "C-S-<tab>") 'previous-buffer) ; switch to next buffer, also C-x right
+(global-set-key (kbd "C-<iso-lefttab>") 'previous-buffer) ; switch to previous buffer, also C-x  left
+(global-set-key (kbd "C-S-<tab>") 'previous-buffer) ; switch to previous buffer, also C-x left
 (global-set-key (kbd "C-;") 'aj-toggle-fold)
 
 ;; easy keys to split window. Key based on ErgoEmacs keybinding
@@ -37,6 +37,7 @@
 												 (local-set-key (kbd "M-3") 'delete-other-windows)
 												 (local-set-key (kbd "M-4") 'split-window-vertically)
 												 (local-set-key (kbd "M-2") 'delete-window)
+												 (local-set-key (kbd "C-<tab>") 'next-buffer)
 												 (global-set-key (kbd "M-S")
 																				 (lambda ()
 																					 (interactive)
@@ -47,4 +48,5 @@
 			'(eshell-mode-hook
 				dired-mode-hook
 				ibuffer-mode-hook
-				diff-mode-hook))
+				diff-mode-hook
+				org-mode-hook))

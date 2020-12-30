@@ -1,0 +1,12 @@
+workspace
+elpa
+eclipse.jdt.ls
+auto-save-list
+bookmarks
+eshell
+network-security.data
+.cache
+.emacs.desktop
+.lsp-session-*
+ac-comphist.dat
+url/cookies

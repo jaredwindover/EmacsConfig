@@ -3,6 +3,7 @@
 (scroll-bar-mode 0)
 (tool-bar-mode 0)
 (menu-bar-mode 0)
+(powerline-default-theme)
 
 (defvar-local hidden-mode-line-mode nil)
 (defvar-local hide-mode-line nil)
@@ -29,7 +30,7 @@
              "Use M-x hidden-mode-line-mode to make the mode-line appear."))))
 
 ;; If you want to hide the mode-line in all new buffers
-(add-hook 'after-change-major-mode-hook 'hidden-mode-line-mode)
+;; (add-hook 'after-change-major-mode-hook 'hidden-mode-line-mode)
 
 (set `frame-inhibit-implied-resize t)
 
